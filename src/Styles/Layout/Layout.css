@@ -1,0 +1,8 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  .margin-top{ 
+    margin-top: 8rem;
+  }

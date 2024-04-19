@@ -1,0 +1,51 @@
+/* RegisterUser.css */
+
+.registerUser-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .sign-in-container {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .sign-in-button {
+    text-align: right;
+  }
+  
+  .sign-up-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  .sign-up-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .sign-up-form Button[type='submit'] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sign-up-form Button[type='submit']:hover {
+    background-color: #357ae8;
+  }
+  

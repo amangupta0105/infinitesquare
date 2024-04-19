@@ -1,0 +1,42 @@
+/* StaticSection.css */
+
+.staticData-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Distribute space between cards */
+  }
+  
+  .static-card {
+    flex: 0 0 calc(25% - 20px); /* Each card takes 25% of the container width with gap */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px; /* Add space between rows */
+  }
+  
+  .static-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%; 
+    margin: 20px auto; 
+  }
+  .static-icon svg{
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  
+  .static-heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .static-about {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,30 @@
+/* SellerProfile.css */
+
+.seller-profile-layout {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 8px;
+}
+
+.seller-profile-heading h3 {
+  font-size: 1.5rem;
+}
+
+.seller-profile-heading p {
+  margin: 0;
+}
+
+.listing-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.listing-button:hover {
+  background-color: #0056b3;
+}

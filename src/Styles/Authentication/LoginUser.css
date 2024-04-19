@@ -1,0 +1,101 @@
+/* LoginUser.css */
+
+.loginUser-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.email-login {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.login-name {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.login-form button {
+  background-color: green;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  padding: 20x;
+  width: 100%;
+}
+
+.login-form button:hover{
+  background-color: orange;
+  color: #333333;
+}
+
+.seprating-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.seprating-text h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.seprating-text p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.seprating-text p Button {
+  color: #007bff;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.seprating-text p Button:hover {
+  text-decoration: underline;
+}
+
+.google-login {
+  /* text-align: center; */
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.google-login Button {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background-color: #4285f4;
+  width: 100%;
+  color: #333333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-login Button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.google-login Button .MuiSvgIcon-root {
+  margin-right: 20px;
+}

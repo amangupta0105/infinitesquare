@@ -1,0 +1,23 @@
+.shop-sidebar {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: -20px;
+}
+.shop-sidebar-allproducts{
+    margin-bottom: 25px;
+}
+.filter-category {
+    margin-bottom: 20px;
+}
+.category-item {
+    display: flex;
+    margin-bottom: 7px;
+    font-size: 0.9rem;
+
+}
+
+.filter-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

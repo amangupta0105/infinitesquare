@@ -1,0 +1,92 @@
+/* About.css */
+
+.about-page {
+  padding: 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+.our-story{
+  padding: 2rem;
+  background-color: aliceblue;
+}
+.our-mission{
+  padding: 2rem;
+}
+.about-description {
+  font-style: italic;
+}
+
+.our-mission,
+.our-story,
+.why-choose-us {
+  margin-bottom: 50px;
+}
+
+.our-mission h2,
+.our-story h2,
+.why-choose-us h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mission-text,
+.story-text {
+  text-align: justify;
+}
+
+.reasons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reason-card {
+  flex-basis: calc(22% - 20px);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.reason-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reason-title {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.reason-description {
+  color: #fff;
+  font-size: 14px;
+}
+
+.reason-card:nth-child(1) {
+  background-color: #00bcd4; /* Cyan */
+}
+
+.reason-card:nth-child(2) {
+  background-color: #673ab7; /* Deep Purple */
+}
+
+.reason-card:nth-child(3) {
+  background-color: #ff5722; /* Deep Orange */
+}
+
+.reason-card:nth-child(4) {
+  background-color: #4caf50; /* Green */
+}
+
+@media screen and (max-width: 768px) {
+  .reason-card {
+    flex-basis: 100%;
+  }
+}

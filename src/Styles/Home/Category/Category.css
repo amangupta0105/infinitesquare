@@ -1,0 +1,62 @@
+/* Category.css */
+
+.category-container {
+    padding: 20px;
+  }
+  
+  .category-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .category-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    position: relative;
+    flex: 1 0 calc(33.33% - 20px); /* 3 cards in a row with gap */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: 350px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 8px 8px 0 0; /* Rounded corners */
+  }
+  
+  .category-data {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: bold;
+  }
+  
+  .category-name {
+
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .category-discount {
+    color: #ff0000;
+    margin-bottom: 10px;
+  }
+  
+  .shop-now {
+    font-size: 0.9rem;
+  }
+  

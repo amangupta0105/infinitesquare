@@ -1,0 +1,24 @@
+/* ProfilePage.css */
+
+.profile-page-container {
+    margin-top: 20px; 
+}
+
+.logout-button {
+    margin-bottom: 20px; 
+    margin-left: 90%;
+}
+.logout-button button{
+    background-color: red;
+    font-weight: bolder;
+  }
+  .logout-button button:hover{
+    background-color: rgb(212, 2, 2);
+  }
+  
+  .user-type button {
+    height: 60vh;
+    width: 45vw;
+    margin: 1rem; /* Adjust margin as needed */
+  }
+  

@@ -1,0 +1,12 @@
+.shop-container {
+    display: flex;
+  }
+    
+  .shop-sidebar {
+    width: 15%; 
+  }
+  
+  .products {
+    flex-grow: 1; /* Take remaining space */
+  }
+  
